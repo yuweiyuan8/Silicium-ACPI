@@ -1,3 +1,4 @@
+[000h 0000 004h]                   Signature : "APIC"    [Multiple APIC Description Table (MADT)]
 [004h 0004 004h]                Table Length : 000002E4
 [008h 0008 001h]                    Revision : 05
 [009h 0009 001h]                    Checksum : 0B
@@ -109,7 +110,7 @@
 [178h 0376 004h]        CPU Interface Number : 00000004
 [17Ch 0380 004h]               Processor UID : 00000004
 [180h 0384 004h]       Flags (decoded below) : 00000001
-                           Processor Enabled : 1
+                           Processor Enabled : 0
           Performance Interrupt Trigger Mode : 0
           Virtual GIC Interrupt Trigger Mode : 0
 [184h 0388 004h]    Parking Protocol Version : 00000000
@@ -132,7 +133,7 @@
 [1CAh 0458 004h]        CPU Interface Number : 00000005
 [1CEh 0462 004h]               Processor UID : 00000005
 [1D2h 0466 004h]       Flags (decoded below) : 00000001
-                           Processor Enabled : 1
+                           Processor Enabled : 0
           Performance Interrupt Trigger Mode : 0
           Virtual GIC Interrupt Trigger Mode : 0
 [1D6h 0470 004h]    Parking Protocol Version : 00000000
@@ -155,7 +156,7 @@
 [21Ch 0540 004h]        CPU Interface Number : 00000006
 [220h 0544 004h]               Processor UID : 00000006
 [224h 0548 004h]       Flags (decoded below) : 00000001
-                           Processor Enabled : 1
+                           Processor Enabled : 0
           Performance Interrupt Trigger Mode : 0
           Virtual GIC Interrupt Trigger Mode : 0
 [228h 0552 004h]    Parking Protocol Version : 00000000
@@ -178,7 +179,7 @@
 [26Eh 0622 004h]        CPU Interface Number : 00000007
 [272h 0626 004h]               Processor UID : 00000007
 [276h 0630 004h]       Flags (decoded below) : 00000001
-                           Processor Enabled : 1
+                           Processor Enabled : 0
           Performance Interrupt Trigger Mode : 0
           Virtual GIC Interrupt Trigger Mode : 0
 [27Ah 0634 004h]    Parking Protocol Version : 00000000
